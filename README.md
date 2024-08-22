@@ -1,6 +1,6 @@
 # Prueba Técnica - BackEnd Senior (Java)
 
-## Objetivo
+## Enunciado
 
 Desarrollar una API RESTful en Java que gestione una librería digital. La API debe permitir la creación, consulta, actualización y eliminación de libros y autores. Además, debe proporcionar la capacidad de buscar libros por diferentes criterios y realizar operaciones avanzadas como la clasificación y paginación de resultados.
 
@@ -65,3 +65,14 @@ La evaluación se centrará en la calidad del código, la adherencia a los princ
 
 ## Tiempo de Entrega
 El tiempo para realizar esta prueba es de 5 días.
+
+## Desarrollado hasta el momento
+
+- **Modelos**: Se crearon los modelos `Author` y `Book` utilizando JPA, lo que permite la creación automática de las tablas en la base de datos especificada en `application.properties`.
+
+- **Repositorios**: Se implementaron los repositorios correspondientes, los cuales simplifican las operaciones de persistencia y recuperación de datos.
+
+- **Servicios**: Se diseñaron las interfaces de servicios y se implementaro las mismas, actuando como una capa intermedia que separa la lógica de negocio entre los controladores y los repositorios mediante encapsulamiento.
+
+- **Tests**: Se realizaron pruebas para verificar que las implementaciones del servicio interactúen correctamente con los repositorios.
+
